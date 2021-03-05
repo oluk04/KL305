@@ -1,2 +1,2 @@
-# tugas-kuliah
-Repository untuk mata kuliah pemrograman web
+# KL305
+Repository adalah media untuk mengumpulkan tugas mata kuliah Pemrograman Web (KL305) yang diampu oleh bapak Ishak Ariawan, S.Pd., M.Kom.
