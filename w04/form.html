@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body bgcolor="oceania" text="white">
+	<h1 align="center"> BIODATA DIRI </h1>
+	<hr/>
+	<form action="" method="POST">
+		<table>
+			<tr>
+				<td width="150">Nama Depan</td>
+				<td><input type="text" size="50"></td>
+			</tr>
+			<tr>
+				<td>Nama Belakang</td>
+				<td><input type="text" size="50"></td>
+			</tr>
+			<tr>
+				<td>NIM</td>
+				<td><input type="number"></td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td><input type="email" size="50"></td>
+			</tr>
+			<tr>
+				<td>Tempat Lahir</td>
+				<td><input type="text" size="30"></td>
+			</tr>
+			<tr>
+				<td>Tanggal Lahir</td>
+				<td><input type="date"></td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td>
+					<textarea name="message" rows="4" cols="30"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td>
+					<input type="radio" name="jk"> Laki-laki
+					<input type="radio" name="jk">Perempuan
+				</td>
+			</tr>
+			<tr>
+				<td>Hobi</td>
+				<td>
+					<input type="checkbox"> Bermain Game
+					<input type="checkbox"> Baca Buku
+					<input type="checkbox"> Olahraga
+					<input type="checkbox"> Tidur
+				</td>
+			</tr>
+			<tr>
+				<td>Program Studi</td>
+				<td>
+					<select>
+					<option>--Pilih--</option>
+				    <option>SIK</option>
+				    <option>PKP</option>
+				    <option>PGSD</option>
+				    <option>PGPAUD</option>
+				    <option>LK</option>
+				  </select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button align="right" type="button" onclick="alert('Data Berhasil Disimpan')">Simpan</button>
+					<button type="reset"> Reset</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+
+	</body>
+</html>
